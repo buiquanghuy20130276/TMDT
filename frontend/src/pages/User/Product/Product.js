@@ -204,7 +204,7 @@ const Product = () => {
                                                 ))}
                                             </ul>
                                             <div className="product-pagination">
-                                                <span className="grid-item-list">Hiển thị {((currentPage - 1) * productsPerPage) + 1} đến {Math.min(currentPage * productsPerPage, products.length)} của {products.length} sản phẩm ({totalPages} trang)</span>
+                                                <span className="grid-item-list">Hiển thị {((currentPage - 1) * productsPerPage) + 1} đến {Math.min(currentPage * productsPerPage, products.length)} ({totalPages} trang)</span>
                                             </div>
                                         </div>
                                     </div>
