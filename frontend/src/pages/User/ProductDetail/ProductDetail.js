@@ -3,7 +3,7 @@ import React, {useEffect, useState} from "react";
 import axios from "axios";
 import {Link, useNavigate, useParams} from "react-router-dom";
 import Review from "../../../component/User/review/Review";
-import Comments from "../../../component/User/comment/Comment";
+import Comments from "../../../component/User/Comment/Comment";
 import CurrencyFormatter from "../../../util/CurrencyFormatter";
 import {useDispatch} from "react-redux";
 import {addToCart, updateCart} from "../Cart/Redux/CartSlice";

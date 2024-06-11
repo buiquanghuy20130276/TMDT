@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import {Button, Modal} from "react-bootstrap";
 import axios from 'axios';
 import {Link} from 'react-router-dom';
-import {upImageFirebase} from "../../../component/User/comment/firebase/Upfirebase";
+import {upImageFirebase} from "../../../component/User/Comment/firebase/Upfirebase";
 import {toast, ToastContainer} from "react-toastify";
 import * as XLSX from "xlsx";
 
